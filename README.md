@@ -21,7 +21,7 @@ pip install -r requirements.txt
 python odoo-bin -d odoo15 -r <pgadmin_user> -w <pgadmin_pw>
 ```
 
-## Edit requirements
+### Edit requirements
 ```
 python-stdnum==1.16
 libsass==0.21.0
