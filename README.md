@@ -23,6 +23,6 @@ python odoo-bin -d odoo15 -r <pgadmin_user> -w <pgadmin_pw>
 
 ### Edit requirements
 
-# python-stdnum==1.16
-# libsass==0.21.0
-# passlib==1.7.2
+python-stdnum==1.16
+libsass==0.21.0
+passlib==1.7.2
