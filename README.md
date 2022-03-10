@@ -28,4 +28,4 @@ libsass==0.21.0
 passlib==1.7.2
 ```
 ### Links
-https://github.com/wkhtmltopdf/wkhtmltopdf/releases/tag/0.12.5
+https://github.com/wkhtmltopdf/wkhtmltopdf/releases/
