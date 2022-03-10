@@ -27,3 +27,5 @@ python-stdnum==1.16
 libsass==0.21.0
 passlib==1.7.2
 ```
+### Links
+https://github.com/wkhtmltopdf/wkhtmltopdf/releases/tag/0.12.5
