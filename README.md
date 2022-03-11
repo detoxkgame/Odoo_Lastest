@@ -9,6 +9,7 @@
 
 `curl https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe --output python-3.10.2-amd64.exe`
 
+
 ### Commands
 ```
 python -m pip install --upgrade pip
@@ -20,10 +21,12 @@ pip install setuptools wheel
 pip install -r requirements.txt
 ```
 
+
 ### Bin
 ```
 python odoo-bin -d odoo15 -r <pgadmin_user> -w <pgadmin_pw>
 ```
+
 
 ### Edit requirements
 ```
@@ -31,6 +34,7 @@ python-stdnum==1.16
 libsass==0.21.0
 passlib==1.7.2
 ```
+
 
 ### Links
 [WKHTMLTOPDF](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/)
