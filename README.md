@@ -1,12 +1,10 @@
 # Odoo_Lastest
 
 ### Odoo Nightly
-```
-curl https://nightly.odoo.com/15.0/nightly/windows/odoo_15.0.latest.exe --output odoo_15.0.lastest.exe
-curl https://nginx.org/download/nginx-1.20.2.zip --output nginx-1.20.2.zip
-curl https://dl.eff.org/certbot-beta-installer-win32.exe --output certbot-beta-installer-win32.exe
-curl https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe --output python-3.10.2-amd64.exe
-```
+`curl https://nightly.odoo.com/15.0/nightly/windows/odoo_15.0.latest.exe --output odoo_15.0.lastest.exe`
+`curl https://nginx.org/download/nginx-1.20.2.zip --output nginx-1.20.2.zip`
+`curl https://dl.eff.org/certbot-beta-installer-win32.exe --output certbot-beta-installer-win32.exe`
+`curl https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe --output python-3.10.2-amd64.exe`
 
 ### Commands
 ```
@@ -32,7 +30,8 @@ passlib==1.7.2
 ```
 
 ### Links
-[wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/)
+[WKHTMLTOPDF](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/)
+
 Python[3.10](https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe)
 
 
