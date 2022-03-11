@@ -17,6 +17,8 @@ Nginx[1.20.2.zip](https://nginx.org/download/nginx-1.20.2.zip)
 
 [Build Tools para Visual Studio 2022](https://aka.ms/vs/17/release/vs_BuildTools.exe)
 
+OpenSSH-portable [8.6.0.0](https://github.com/PowerShell/openssh-portable/archive/refs/tags/v8.6.0.0.zip)
+
 
 `curl https://dl.eff.org/certbot-beta-installer-win32.exe --output certbot-beta-installer-win32.exe`
 
