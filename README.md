@@ -54,7 +54,7 @@ Test SSH
 Name : OpenSSH.Server ~~~~ 0.0.1.0
 State : Installed
 
-[#f03c15]Uninstall SSH windows server 2016`#f03c15`
+~~Uninstall SSH windows server 2016~~
 ```Remove-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0```
 
 Crear regla en el firewall para SSH en el puerto 22
