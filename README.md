@@ -1,13 +1,25 @@
-# Odoo_Lastest
+# Odoo_Lastest version windows64
 
-### Odoo Nightly
-`curl https://nightly.odoo.com/15.0/nightly/windows/odoo_15.0.latest.exe --output odoo_15.0.lastest.exe`
+## Odoo Nightly
 
-`curl https://nginx.org/download/nginx-1.20.2.zip --output nginx-1.20.2.zip`
+### Download Links 
+
+Odoo [Last version WIN](https://nightly.odoo.com/15.0/nightly/windows/odoo_15.0.latest.exe)
+
+WKHTMLTOPDF[ WIN64](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox-0.12.5-1.msvc2015-win64.exe)
+
+Python[3.10](https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe)
+
+[DUC No-IP](https://www.noip.com/client/DUCSetup_v4_1_1.exe)
+
+Nginx[1.20.2.zip](https://nginx.org/download/nginx-1.20.2.zip)
+
+[Build Tools para Visual Studio 2022](https://aka.ms/vs/17/release/vs_BuildTools.exe)
+
 
 `curl https://dl.eff.org/certbot-beta-installer-win32.exe --output certbot-beta-installer-win32.exe`
 
-`curl https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe --output python-3.10.2-amd64.exe`
+
 
 
 ### Commands
@@ -22,11 +34,6 @@ pip install -r requirements.txt
 ```
 
 
-### Bin
-```
-python odoo-bin -d odoo15 -r <pgadmin_user> -w <pgadmin_pw>
-```
-
 
 ### Edit requirements
 ```
@@ -36,10 +43,6 @@ passlib==1.7.2
 ```
 
 
-### Links
-[WKHTMLTOPDF](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/)
-
-Python[3.10](https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe)
 
 
 ### PowerShell command
@@ -51,7 +54,7 @@ Test SSH
 Name : OpenSSH.Server ~~~~ 0.0.1.0
 State : Installed
 
-Uninstall SSH windows server 2016
+[#f03c15]Uninstall SSH windows server 2016`#f03c15`
 ```Remove-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0```
 
 Crear regla en el firewall para SSH en el puerto 22
@@ -59,3 +62,12 @@ Crear regla en el firewall para SSH en el puerto 22
 
 Conectarse por tunel SSH
 ```ssh -p 22 admin@<windows_IP>```
+
+
+
+
+
+### Bin
+```
+python odoo-bin -d odoo15 -r <pgadmin_user> -w <pgadmin_pw>
+```
