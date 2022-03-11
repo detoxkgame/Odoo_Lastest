@@ -50,9 +50,7 @@ Install SSH windows server 2016
 ```Add-WindowsCapability -Online -Name OpenSSH.Server*```
 
 Test SSH 
-```Get-WindowsCapability -Online | ? Name -like 'OpenSSH.Server*'```
-Name : OpenSSH.Server ~~~~ 0.0.1.0
-State : Installed
+```Get-Service -Name *ssh*```
 
 ~~Uninstall SSH windows server 2016~~
 ```Remove-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0```
