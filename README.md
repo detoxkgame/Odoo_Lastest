@@ -32,8 +32,8 @@ passlib==1.7.2
 ```
 
 ### Links
-https://github.com/wkhtmltopdf/wkhtmltopdf/releases/
-https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe
+[wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/)
+Python[3.10](https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe)
 
 
 ### PowerShell command
