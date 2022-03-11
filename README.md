@@ -48,4 +48,8 @@ State : Installed
 Uninstall SSH windows server 2016
 ```Remove-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0```
 
+Crear regla en el firewall para SSH en el puerto 22
+```New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22```
 
+Conectarse por tunel SSH
+```ssh -p 22 admin@<windows_IP>```
