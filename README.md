@@ -72,3 +72,7 @@ Conectarse por tunel SSH
 ```
 python odoo-bin -d odoo15 -r <pgadmin_user> -w <pgadmin_pw>
 ```
+
+
+### Links
+Install SSH winserv [documantation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
