@@ -3,6 +3,7 @@
 ## Odoo Nightly
 
 ### Download Links 
+Git x64[2.35.1.2]https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe)
 
 Odoo [Last version WIN](https://nightly.odoo.com/15.0/nightly/windows/odoo_15.0.latest.exe)
 
