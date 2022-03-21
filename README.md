@@ -17,8 +17,6 @@ Nginx[1.20.2.zip](https://nginx.org/download/nginx-1.20.2.zip)
 
 [Build Tools para Visual Studio 2022](https://aka.ms/vs/17/release/vs_BuildTools.exe)
 
-OpenSSH-portable [8.6.0.0](https://github.com/PowerShell/openssh-portable/archive/refs/tags/v8.6.0.0.zip)
-
 
 `curl https://dl.eff.org/certbot-beta-installer-win32.exe --output certbot-beta-installer-win32.exe`
 
@@ -43,6 +41,7 @@ pip install -r requirements.txt
 python-stdnum==1.16
 libsass==0.21.0
 passlib==1.7.2
+pandas==0.20.3
 ```
 
 
@@ -52,21 +51,26 @@ passlib==1.7.2
 Install SSH windows server 2016
 ```Add-WindowsCapability -Online -Name OpenSSH.Server*```
 
-Test SSH 
-```Get-Service -Name *ssh*```
-
-~~Uninstall SSH windows server 2016~~
-```Remove-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0```
-
 Crear regla en el firewall para SSH en el puerto 22
 ```New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22```
 
-Conectarse por tunel SSH
-```ssh -p 22 admin@<windows_IP>```
 
+### PSQL command
 
+White screen after log in
+```DELETE FROM ir_attachment WHERE name SIMILAR TO '%.(js|css)'; ```
 
+PG_dump 
+```
+set PGPASSFILE="<dir_pgpass.conf>"
+pg_dump -h <host> -p <port> -U <user> -F c -b -v -f "<dir_file.backup>" <database>
+```
+PG_restore
+```
+pg_restore -h <host> -p <port> -U <user> -d <database> -v "<dir_file.backup>"
+```
 
+.pgpass format: hostname:port:database:username:password
 
 ### Bin
 ```
