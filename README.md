@@ -5,7 +5,7 @@
 ### Download Links 
 Git x64[2.35.1.2]https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe)
 
-Odoo [Last version WIN](https://nightly.odoo.com/15.0/nightly/windows/odoo_15.0.latest.exe)
+Odoo 15 [Last version WIN](https://nightly.odoo.com/15.0/nightly/windows/odoo_15.0.latest.exe)
 
 WKHTMLTOPDF[ WIN64](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox-0.12.5-1.msvc2015-win64.exe)
 
