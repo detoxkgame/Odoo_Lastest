@@ -13,6 +13,8 @@ Python[3.10](https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe)
 
 [DUC No-IP](https://www.noip.com/client/DUCSetup_v4_1_1.exe)
 
+VS Code [x64-1.66.1.exe](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
+
 Nginx[1.20.2.zip](https://nginx.org/download/nginx-1.20.2.zip)
 
 [Build Tools para Visual Studio 2022](https://aka.ms/vs/17/release/vs_BuildTools.exe)
